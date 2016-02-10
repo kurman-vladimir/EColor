@@ -1,5 +1,5 @@
 #include "nativeeventfilter.h"
-#include <Windows.h>
+#include <windows.h>
 #include <QKeySequence>
 #include <QStringList>
 #include <QString>
@@ -39,7 +39,7 @@ namespace
             }
         }
         return hotKey;
-}
+    }
 }
 
 NativeEventFilter::NativeEventFilter(QObject *parent) :
